@@ -27,4 +27,70 @@ Install `vissuAlize` using pip:
 pip install vissuAlize
 ```
 
+## Quick Start
+
+To create a bar chart with `vissuAlize`, simply import the library and use the `bar` method. You can customize your chart with various parameters such as `title`, `xlabel`, `ylabel`, `figsize`, and `color`. Here's an example:
+
+```python
+from vissuAlize import vissuAlize
+
+
+# Create data for the chart
+categories = ['Category 1', 'Category 2', 'Category 3']
+values = [10, 20, 15]
+
+# Generate the bar chart
+vissuAlize.bar(x=categories, y=values, title='Sample Bar Chart', xlabel='Categories', ylabel='Values', figsize=(8, 6), color='maroon')
+```
+
+<img src="https://github.com/hocuf/vissuAlize/assets/92105996/bb95245a-ea92-4401-a4f5-206f88538394" width="400" />
+
+## Scatter Plot Example
+
+```python
+# Sample data for scatter plot
+x_values = [5, 20, 40, 60, 80]
+y_values = [25, 45, 65, 85, 105]
+
+# Generating the scatter plot
+vissuAlize.scatter(x=x_values, y=y_values, title='Scatter Plot Example', xlabel='X Axis', ylabel='Y Axis', figsize=(10, 6), color='green', marker='x')
+```
+
+
+<img src="https://github.com/hocuf/vissuAlize/assets/92105996/b4b81109-6df6-4ee5-b4d8-4571569584b6" width="400" />
+
+
+
+## Line Plot Example
+```python
+
+
+# Time series data
+months = ['Jan', 'Feb', 'Mar', 'Apr', 'May']
+revenue = [10000, 15000, 12000, 17000, 14000]
+
+# Generating the line plot
+vissuAlize.lineplot(x=months, y=revenue, title='Monthly Revenue', xlabel='Month', ylabel='Revenue', figsize=(10, 6), color='red', linestyle='--', linewidth=2)
+
+
+
+```
+<img src="https://github.com/hocuf/vissuAlize/assets/92105996/99a2fb8d-0298-4276-b65f-9187f7cad7d1" width="400" />
+
+
+## Histogram Example
+```python
+
+# Sample data for histogram
+data = [22, 87, 5, 43, 56, 73, 55, 54, 11, 20, 51, 5, 79, 31, 27]
+
+# Generating the histogram
+vissuAlize.histogram(data=data, bins=8, title='Sample Histogram', xlabel='Value', ylabel='Frequency', figsize=(10, 6), color='purple')
+
+```
+<img src="https://github.com/hocuf/vissuAlize/assets/92105996/e396cd7f-225e-4b4f-a6b1-c273711def28" width="400" />
+
+
+
+
 ## Example
