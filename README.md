@@ -19,7 +19,9 @@ vissuAlize
 
 `vissuAlize 0.1.3` is a Python visualization library that provides a high-level interface for drawing attractive and informative statistical graphics. It is built on top of [Matplotlib](https://github.com/matplotlib/matplotlib) and [Seaborn](https://github.com/mwaskom/seaborn) and offers a variety of chart types that can be created with minimal code.
 
-- [Google Colab](https://colab.research.google.com/drive/12SU-vw9-TZH9if7B-wvgNNexFJsnX1LH?usp=sharing)
+
+
+[Google Colab](https://colab.research.google.com/drive/12SU-vw9-TZH9if7B-wvgNNexFJsnX1LH?usp=sharing)
 
 ## Installation
 
