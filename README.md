@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center">
-vissuAlize
+vissuAlize 
 </h1>
 <p align="center">
   <img src="https://github.com/hocuf/vissuAlize/assets/92105996/86e099c8-d531-4cf0-ab54-d3c9078cb1a0" width="200" />
@@ -17,7 +17,7 @@ vissuAlize
 
 
 
-`vissuAlize` is a Python visualization library that provides a high-level interface for drawing attractive and informative statistical graphics. It is built on top of Matplotlib and Seaborn and offers a variety of chart types that can be created with minimal code.
+`vissuAlize 0.1.3` is a Python visualization library that provides a high-level interface for drawing attractive and informative statistical graphics. It is built on top of [Matplotlib](https://github.com/matplotlib/matplotlib) and [Seaborn](https://github.com/mwaskom/seaborn) and offers a variety of chart types that can be created with minimal code.
 
 ## Installation
 
