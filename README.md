@@ -116,5 +116,6 @@ vissuAlize.histogram(data=data, bins=8, title='Sample Histogram', xlabel='Value'
 
 This project, vissuAlize, has been developed to provide an easy and intuitive way to visualize data in Python. It stands on the shoulders of giants by utilizing the powerful visualization capabilities provided by matplotlib and seaborn. We are thankful to the developers and contributors of these libraries for making data visualization accessible and effective.
 
-matplotlib: A plotting library for the Python programming language and its numerical mathematics extension NumPy. Matplotlib
-seaborn: A Python data visualization library based on matplotlib that provides a high-level interface for drawing attractive statistical graphics. Seaborn
+* matplotlib: A plotting library for the Python programming language and its numerical mathematics extension NumPy. [Matplotlib](https://github.com/matplotlib/matplotlib)
+
+* seaborn: A Python data visualization library based on matplotlib that provides a high-level interface for drawing attractive statistical graphics. [Seaborn](https://github.com/mwaskom/seaborn)
