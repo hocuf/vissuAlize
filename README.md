@@ -32,6 +32,11 @@ pip install vissuAlize
 The `dir()` function lists all properties and methods that an object has. For example, to see all the functions and properties your vissuAlize module has, you can use it as follows:
 
 
+```python
+dir(vissuAlize)
+```
+
+
 
 <p align="left">
   <img src="https://github.com/hocuf/vissuAlize/assets/92105996/b2c060e2-feb2-4d93-ad6c-8f402bcca514" width="200" />
@@ -41,6 +46,12 @@ The `dir()` function lists all properties and methods that an object has. For ex
 ## help()
 
 The `help()` function provides detailed information about an object, module or function in Python. It is useful for explaining to the user what the object does, how to use it, and what its methods are.
+
+
+```python
+help(vissuAlize)
+```
+
 
 <p align="left">
   <img src="https://github.com/hocuf/vissuAlize/assets/92105996/9cfbf667-adf3-4160-ac5d-140a8e7818a0" width="600" />
