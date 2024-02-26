@@ -27,6 +27,25 @@ Install `vissuAlize` using pip:
 pip install vissuAlize
 ```
 
+## dir()
+
+The `dir()` function lists all properties and methods that an object has. For example, to see all the functions and properties your vissuAlize module has, you can use it as follows:
+
+
+
+<p align="left">
+  <img src="https://github.com/hocuf/vissuAlize/assets/92105996/b2c060e2-feb2-4d93-ad6c-8f402bcca514" width="200" />
+</p>
+
+
+## help()
+
+The `help()` function provides detailed information about an object, module or function in Python. It is useful for explaining to the user what the object does, how to use it, and what its methods are.
+
+<p align="left">
+  <img src="https://github.com/hocuf/vissuAlize/assets/92105996/9cfbf667-adf3-4160-ac5d-140a8e7818a0" width="600" />
+</p>
+
 ## Quick Start
 
 To create a bar chart with `vissuAlize`, simply import the library and use the `bar` method. You can customize your chart with various parameters such as `title`, `xlabel`, `ylabel`, `figsize`, and `color`. Here's an example:
@@ -93,4 +112,9 @@ vissuAlize.histogram(data=data, bins=8, title='Sample Histogram', xlabel='Value'
 
 
 
-## Example
+## Acknowledgements
+
+This project, vissuAlize, has been developed to provide an easy and intuitive way to visualize data in Python. It stands on the shoulders of giants by utilizing the powerful visualization capabilities provided by matplotlib and seaborn. We are thankful to the developers and contributors of these libraries for making data visualization accessible and effective.
+
+matplotlib: A plotting library for the Python programming language and its numerical mathematics extension NumPy. Matplotlib
+seaborn: A Python data visualization library based on matplotlib that provides a high-level interface for drawing attractive statistical graphics. Seaborn
